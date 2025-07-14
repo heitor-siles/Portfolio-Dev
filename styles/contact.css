@@ -1,5 +1,5 @@
 .projects-contact {
-    background: url(/assets/images/Background_Contacts.png) no-repeat center/cover;
+    background: url('../assets/images/Background_Contacts.png') no-repeat center/cover;
     z-index: -1;
     width: 100%;
     height: 787px;
@@ -24,20 +24,36 @@
     gap: 16px;
 }
 
-#linkedin {
-    content: url(/assets/icons/LinkedinLogo.svg);
+.linkedin span {
+    content: url('../assets/icons/LinkedinLogo.svg');
 }
 
-#instagram {
-    content: url(/assets/icons/InstagramLogo.svg);
+.linkedin:hover > span {
+    content: url('../assets/icons/linkedin-logo-hover.svg');
 }
 
-#github {
-    content: url(/assets/icons/GithubLogo.svg);
+.instagram span {
+    content: url('../assets/icons/InstagramLogo.svg');
 }
 
-#email {
-    content: url(/assets/icons/EnvelopeSimple.svg);
+.instagram:hover > span {
+    content: url('../assets/icons/instagram-logo-hover.svg');
+}
+
+.github span {
+    content: url('../assets/icons/GithubLogo.svg');
+}
+
+.github:hover span {
+    content: url('../assets/icons/github-logo-hover.svg');
+}
+
+.email span {
+    content: url('../assets/icons/EnvelopeSimple.svg');
+}
+
+.email:hover span {
+    content: url('../assets/icons/envelope-simple-hover.svg');
 }
 
 .social-button {
@@ -54,22 +70,6 @@
 
 .social-button:hover {
     outline: 1.5px solid var(--blue);
-
-    #linkedin {
-        content: url(/assets/icons/linkedin-logo-hover.svg);
-    }
-
-    #instagram {
-        content: url(/assets/icons/instagram-logo-hover.svg);
-    }
-
-    #github {
-        content: url(/assets/icons/github-logo-hover.svg);
-    }
-
-    #email {
-        content: url(/assets/icons/envelope-simple-hover.svg);
-    }
 }
 
 
