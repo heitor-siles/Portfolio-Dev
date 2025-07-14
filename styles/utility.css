@@ -1,0 +1,42 @@
+.grid {
+    display: grid;
+}
+.grid-flow-col {
+    grid-auto-flow: column;
+}
+
+.subtitle {
+    font: var(--subtitle);
+}
+
+.title-lg {
+    font: var(--title-lg);
+}
+
+.title-md {
+    font: var(--title-md);
+}
+
+.title-sm {
+    font: var(--title-sm);
+}
+
+.text-md {
+    font: var(--text-md);
+}
+
+.text-sm {
+    font: var(--text-sm);
+}
+
+.vermelho {
+    color: var(--red);
+}
+
+.roxo {
+    color: var(--purple);
+}
+
+.gap-8 {
+    gap:8px
+}

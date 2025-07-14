@@ -1,0 +1,75 @@
+.projects-contact {
+    background: url(/assets/images/Background_Contacts.png) no-repeat center/cover;
+    z-index: -1;
+    width: 100%;
+    height: 787px;
+    position: absolute;
+    top: 2147px;
+    left: 0;
+}
+
+#contact {
+    margin-inline: center;
+    padding: 128px 120px 200px;
+}
+
+#footer {
+    text-align: center;
+    padding-bottom: 48px;
+}
+
+#links {
+    width: 400px;
+    margin-inline: auto;
+    gap: 16px;
+}
+
+#linkedin {
+    content: url(/assets/icons/LinkedinLogo.svg);
+}
+
+#instagram {
+    content: url(/assets/icons/InstagramLogo.svg);
+}
+
+#github {
+    content: url(/assets/icons/GithubLogo.svg);
+}
+
+#email {
+    content: url(/assets/icons/EnvelopeSimple.svg);
+}
+
+.social-button {
+    background-color: var(--gray-400);
+    border-radius: 8px;
+    width: 400px;
+    height: 68px;
+    padding: 20px;
+    gap: 12px;
+    align-items: center;
+    grid-template-columns: 28px 1fr 20px;
+
+}
+
+.social-button:hover {
+    outline: 1.5px solid var(--blue);
+
+    #linkedin {
+        content: url(/assets/icons/linkedin-logo-hover.svg);
+    }
+
+    #instagram {
+        content: url(/assets/icons/instagram-logo-hover.svg);
+    }
+
+    #github {
+        content: url(/assets/icons/github-logo-hover.svg);
+    }
+
+    #email {
+        content: url(/assets/icons/envelope-simple-hover.svg);
+    }
+}
+
+
