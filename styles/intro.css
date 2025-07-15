@@ -70,7 +70,7 @@
 
 .intro-background {
 
-    background: url(/assets/images/Background_Intro.png) no-repeat center/cover;
+    background: url('../assets/images/Background_Intro.png') no-repeat center/cover;
     z-index: -1;
     width: 100%;
     height: 750px;
